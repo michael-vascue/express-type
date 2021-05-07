@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/micftk/.nvm/versions/node/v12.18.4/bin/node /usr/local/bin/yarn add express expresss-session
+
+PATH: 
+  /Users/micftk/.nvm/versions/node/v12.18.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/micftk/.nvm/versions/node/v12.18.4/bin:/Users/micftk/lib/maven-3.6.3/bin:/Users/micftk/Workspace/flutter/bin:/opt/apache-maven/bin:/Users/micftk/lib/maven-3.6.3/bin:/Users/micftk/Workspace/flutter/bin:/opt/apache-maven/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/expresss-session: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1220:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "express-type",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
